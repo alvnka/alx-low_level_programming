@@ -10,9 +10,9 @@ int main(){
 	float floatType;
 
 	/*sizeof evaluates size of variable*/
-	printf("Size of a char:%zu bytes\n", sizeof(charType));
-	printf("Size of an int:%zu bytes\n", sizeof(intType));
-	printf("Size of a long int:%zu bytes\n", sizeof(longInt));
-	printf("Size of a long long int:%zu bytes\n", sizeof(longLongInt));
-	printf("Size of a float:%zu bytes\n", sizeof(floatType));
+	printf("Size of a char:%zu byte(s)\n", sizeof(charType));
+	printf("Size of an int:%zu byte(s)\n", sizeof(intType));
+	printf("Size of a long int:%zu byte(s)\n", sizeof(longInt));
+	printf("Size of a long long int:%zu byte(s)\n", sizeof(longLongInt));
+	printf("Size of a float:%zu byte(s)\n", sizeof(floatType));
 }
