@@ -1,6 +1,6 @@
 /**
-This is a program to display the
- aphabet in lowercase
+*This is a program to display the
+*aphabet in lowercase
 */
 #include <stdio.h>
 /**
