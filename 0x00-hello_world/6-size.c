@@ -1,7 +1,8 @@
-/*this files contains this header files
- *Stdio.h
- * */
 #include<stdio.h>
+/**
+ * main - prints various data types sizes
+ * Return  - will be zero if exited properly
+*/
 int main(){
 	char charType;
 	int intType;
