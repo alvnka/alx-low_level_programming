@@ -1,3 +1,7 @@
+/**
+This is a program to display the
+ aphabet in lowercase
+*/
 #include <stdio.h>
 /**
 *this is a program to display the alphabet in small letters
