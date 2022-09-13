@@ -14,18 +14,18 @@ void times_table(void)
 		for (b = 0; b <= 9; b++)
 			{
 			c = a * b;
-			if (b == 0 && c == 0)
-			{
-			printf("%d,", c);
-			}
-			if ((c < 10 && a != 0) || (c == 0 && b > 0))
-			{
-			printf("  %d,", c);
-			}
-			if (c > 10 && a != 0)
-			{
-			printf(" %d,", c);
-			}
+			if (a == 0 && c == 0)
+				{
+				printf("%d,", c);
+				}
+			if (c < 10 && a > 0)
+				{
+				printf("  %d", c);
+				}
+			if (c > 10)
+				{
+				printf(" %d", c);
+				}
 			}
 		_putchar('\n');
 		}
