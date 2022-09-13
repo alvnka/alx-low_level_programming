@@ -20,13 +20,13 @@ void times_table(void)
 				}
 			if (c < 10 && a > 0)
 				{
-				printf("  %d", c);
+				printf("  %d,", c);
 				}
 			if (c > 10)
 				{
-				printf(" %d", c);
+				printf(" %d,", c);
 				}
 			}
-		_putchar('\n');
+		_putchar("\n");
 		}
 }
