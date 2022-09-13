@@ -1,12 +1,3 @@
-#ifndef main
-#define main
-#include <stdio.h>
-
-/**
- * main - inlude all header fies and prototypes
- * function prototypes
- */
-
 int _putchar(int c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -19,5 +10,4 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
-
-#endif
+void print_times_table(int n);
