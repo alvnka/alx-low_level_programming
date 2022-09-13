@@ -1,4 +1,11 @@
-#include <stdio.h>
+#include "main.h"
+/**
+ * print_sign - checks sign of a number
+ * @n: hold value to be checked
+ * Return: 0 if 0
+ * 1 if positive
+ * -1 if negative
+ */
 
 int print_sign(int n)
 {
@@ -19,29 +26,3 @@ int print_sign(int n)
 	}
 }
 
-int main(void)
-{
-	int r;
-
-	r = print_sign(98);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(0);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(0xff);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(-1);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	return (0);
-}

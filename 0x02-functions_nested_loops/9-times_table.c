@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * times_table - prints the 9 times table
- * 
+ *
  * Return: 9 multiples
  */
 void times_table(void)
@@ -29,15 +29,4 @@ void times_table(void)
 			}
 		putchar('\n');
 		}
-}
-/**
- * main - call times_table
- *
- * Return: 0
- */
-
-int main(void)
-{
-	times_table();
-	return(0);
 }

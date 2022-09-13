@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - calls the function to compute
- * value of an integer
- * Return: 0 on success
+ * _abs - calls the function to compute
+ * @n: value of an integer
+ * Return: n
  */
-int _abs(int);
+
 int _abs(int n)
 {
 	if (n < 0)
@@ -21,18 +21,4 @@ int _abs(int n)
 	return (n);
 	}
 	return (404);
-}
-int main(void)
-{
-	int r;
-
-	r = _abs(-1);
-	printf("%d\n", r);
-	r = _abs(0);
-	printf("%d\n", r);
-	r = _abs(1);
-	printf("%d\n", r);
-	r = _abs(-98);
-	printf("%d\n", r);
-	return (0);
 }
