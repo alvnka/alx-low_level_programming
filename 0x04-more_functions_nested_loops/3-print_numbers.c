@@ -3,7 +3,7 @@
 /**
  * print_numbers - prints the
  * numbers 0 -9 followed by a line
- *
+ * @i - loop control value
  * Return: 0
  */
 
