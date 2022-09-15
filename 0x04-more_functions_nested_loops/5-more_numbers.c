@@ -9,14 +9,16 @@
 
 void more_numbers(void)
 {
-	int i, j;
+	int i =0, j = 0;
 
-	for (i = 0; i <= 9; i++)
+	while (i < 10)
 	{
-		for (j = 0; j <= 14; j++)
+		while (j <= 14)
 		{
-		printf("%d,", j);
+		_putchar(i);
+		j++;
 		}
-		_putchar('\n');
+	_putchar('\n');
+	i++;
 	}
 }
