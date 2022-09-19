@@ -9,6 +9,6 @@ void swap_int(int *a, int *b)
 	int tempLocation;
 
 	tempLocation = *a;
-	* a = *b;
-	* b = tempLocation;
+	*a = *b;
+	*b = tempLocation;
 }
