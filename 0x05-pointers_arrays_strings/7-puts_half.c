@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * putshalf - prints last half of
+ * puts_half - prints last half of
  * @str: the string used as input
  * Return: void
  */
@@ -10,7 +10,7 @@ void puts_half(char *str)
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
-	{	
+	{
 	i++;
 	}
 
