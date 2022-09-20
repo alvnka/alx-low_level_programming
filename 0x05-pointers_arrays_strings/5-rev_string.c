@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*rev_string - reverses a string
-*@s: pointer to an int to be changed
+*rev_string - reverses a string input
+*@s: pointer to the int to be changed
 *Return: void
 */
 
@@ -13,7 +13,7 @@ int length = 0;
 
 for (i = 0; s[i]; i++)
 {
-length++;
+	length++;
 }
 count = length;
 
@@ -22,16 +22,16 @@ end_c = s;
 
 for (i = 0; i < count - 1; i++)
 {
-end_c++;
+	end_c++;
 }
 for (i = 0; i < count / 2; i++)
 {
-c = *end_c;
-*end_c = *start_c;
-*start_c = c;
+	c = *end_c;
+	*end_c = *start_c;
+	*start_c = c;
 
-start_c++;
-end_c--;
+	start_c++;
+	end_c--;
 }
 }
 
