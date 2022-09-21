@@ -1,0 +1,7 @@
+0x00 - hello world - done 08/09/2022
+0x01 - variables, if, else, while - done 08/09/2022
+0x02 - variables, if, else, while - done 09/09/2022
+0x03 - Debugging - done 12/09/2022
+0x04 - more functions, more nested loops - done 15/09/2022
+0x05 - pointers, arrays and strings done 19/19/2022
+0x06 -  more pointers, arrays and strings - done 21/09/2022
