@@ -1,25 +1,25 @@
 #include "main.h"
 /**
  * _strstr - funstion to count length of a substring
- * @s: string to be checked
- * @accept: string that should be in te
- * first segment of S
+ * @haystack: string to be checked
+ * @needle: string that should be in te
+ * of haystack
  * Return: characters that match
  */
 
-char *_strstr(char *s, char *accept)
+char *_strstr(char *haystack, char *needle)
 {
 	unsigned int i, j = 0;
 
-	for (i = 0; *(s + i) != '\0'; i++)
+	for (i = 0; *(haystack + i) != '\0'; i++)
 	{
-		for (j = 0; ((*(accept + j)) == (*(s + i))) && (*(accept + j) != '\0'); j++)
+		for (j = 0; ((*(needle + j)) == (*(haystack + i))) && (*(needle + j) != '\0') && (*(haystack + j)); j++)
 		{
-			if (*(s + i) == *(accept + j))
+			if (*(haystack + i) == *(needle + j))
 			{
-			return (s + i);
+			return (haystack + i);
 			}
 		}
 	}
-	return ('\0');
+	return (0);
 }
