@@ -5,3 +5,5 @@
 0x04 - more functions, more nested loops - done 15/09/2022
 0x05 - pointers, arrays and strings done 19/19/2022
 0x06 -  more pointers, arrays and strings - done 21/09/2022
+0x07 - Even more pointers, arrays and strings - done 26/09/2022
+
