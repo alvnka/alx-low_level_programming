@@ -15,7 +15,7 @@ int _check(int n, int c)
 		{
 			return (c);
 		}
-		else 
+		else
 		{
 			return (-1);
 		}
@@ -36,7 +36,7 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	else if (n ==0)
+	else if (n == 0)
 	{
 		return (0);
 	}
@@ -46,6 +46,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return(_check(n,1));			
+		return (_check(n, 1));
 	}
 }
