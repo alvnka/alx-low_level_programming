@@ -7,3 +7,4 @@
 0x06 -  more pointers, arrays and strings - done 21/09/2022
 0x07 - Even more pointers, arrays and strings - done 26/09/2022
 0x08 - recursions - done 28/09/19
+0x0A - argc, argv - done 30/09/19
