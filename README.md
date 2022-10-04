@@ -9,3 +9,4 @@
 0x08 - recursions - done 28/09/19
 0x09 - Static libraries - done 30/09/2022
 0x0A - argc, argv - done 30/09/19
+0x0B - malloc, free - done 4/09/19
