@@ -17,6 +17,7 @@ int **alloc_grid(int width, int height)
 	if (width < 1 || height < 1)
 	{
 		return (NULL);
+		free(point_it);
 	}
 	point_it = malloc(height * sizeof(int *));
 
@@ -43,4 +44,5 @@ int **alloc_grid(int width, int height)
 		}
 	}
 	return (point_it);
+	free (point_it);
 }
