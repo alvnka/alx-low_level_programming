@@ -32,8 +32,11 @@ int **alloc_grid(int width, int height)
 		if (point_it[i] == NULL)
 		{
 			for (i--; i >= 0; i--)
+			{
+				free(point_it);
+				return (NULL);
+			}
 			free(point_it);
-			return (NULL);
 		}
 	}
 	for (i = 0; i < height; i++)
@@ -44,5 +47,5 @@ int **alloc_grid(int width, int height)
 		}
 	}
 	return (point_it);
-	free (point_it);
+	free(point_it);
 }
