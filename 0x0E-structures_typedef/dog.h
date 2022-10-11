@@ -1,9 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
-/**
- * dog_t - Typedef new type for struct dog
- */
-typedef struct dog_t dog;
+
 /**
  * struct dog - sturcture to be created
  * @name: fist element
@@ -19,5 +16,9 @@ struct dog
 };
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
+/**
+ * dog_t - Typedef new type for struct dog
+ */
+typedef struct dog dog_t;
 
 #endif
