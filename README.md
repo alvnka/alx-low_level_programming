@@ -12,3 +12,4 @@
 0x0B - malloc, free - done 04/09/19
 0x0C - more malloc, free - done 06/10/2022
 0x0D - Preprocessor - done 11/10/2022
+0x0E - structures, typedef -  done 11/10/2022
