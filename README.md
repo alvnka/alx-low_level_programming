@@ -16,3 +16,4 @@
 0x0F - Function pointers - done 13/10/2022
 0x10 - Variadic functions - done 14/10/2022
 0x12 - singly linked list - done 24/10/2022
+0x13 - more singly linked list - done 26/10/2022
