@@ -1,7 +1,8 @@
 #include "lists.h"
+
 /**
- * free_listint - function to free list memory
- * @head: head of the list
+ * free_listint - add node at the end of the list
+ * @head: head node
  * Return: void
  */
 
