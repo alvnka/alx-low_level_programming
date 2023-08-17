@@ -10,21 +10,14 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	unsigned int count = 0;
 	dlistint_t *current_node = head;
 
-	if (head)
+	while (current_node != NULL && count < index)
 	{
-		while ((current_node->next != NULL) && (count != index))
-		{
-			current_node = current_node->next;
-			count++;
-			printf("count is %d\n", count - 1);
-		}
-		if (count == index)
-			return (current_node);
-		else
-			return (NULL);
+		current_node = current_node->next;
+		count++;
 	}
-	else
-	{
-		return (NULL);
-	}
+
+	if (count == index)
+		return (current_node);
+
+	return (NULL);
 }
